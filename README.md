@@ -6,10 +6,9 @@ You can run it entirely locally (instant, deterministic) or via an AI engine (Ge
 
 ## Demo video
 
-<video src="demo/demo.mp4" controls width="100%" muted>
-Your browser does not support the video tag. You can download the video from
-<a href="demo/demo.mp4">demo/demo.mp4</a>.
-</video>
+You can watch the demo video on GitHub by clicking this link:
+
+[Demo video (MP4)](demo/demo.mp4)
 
 ---
 
