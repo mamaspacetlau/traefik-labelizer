@@ -1,0 +1,17 @@
+services:
+  traefik-labelizer:
+    image: motionninja/trafik-labelizer:latest
+    container_name: traefik-labelizer
+    restart: unless-stopped
+    ports:
+      - 9412:9412
+    environment:
+      API_KEY: ${API_KEY}
+      API_PROVIDER: ${API_PROVIDER}
+      DOMAIN: ${DOMAIN:-example.com}
+      MIDDLEWARE: ${MIDDLEWARE}
+      COMMENT_OUT_PORTS: ${COMMENT_OUT_PORTS:-true}
+      SYNC_SCROLL: ${SYNC_SCROLL:-true}
+      NETWORK: ${NETWORK:-frontend}
+      WORD_WRAP: ${WORD_WRAP:-false}
+      AI_MODEL: ${AI_MODEL:-}

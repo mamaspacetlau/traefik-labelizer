@@ -4,6 +4,13 @@ Traefik Labelizer helps you take an existing `docker-compose.yml` and automatica
 
 You can run it entirely locally (instant, deterministic) or via an AI engine (Gemini, OpenAI, OpenRouter) for more complex, heuristic transformations.
 
+## Demo video
+
+<video src="demo/demo.mp4" controls width="100%" muted>
+Your browser does not support the video tag. You can download the video from
+<a href="demo/demo.mp4">demo/demo.mp4</a>.
+</video>
+
 ---
 
 ## Running the app
@@ -326,4 +333,3 @@ Ensure that the model name you provide matches the conventions of the selected p
   ```
 
 This ensures your services can attach to the expected shared network when Traefik is running.
-
